@@ -19,7 +19,7 @@
     "tron"
   ],
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.2",
     "ext-gmp": "*",
     "ext-ctype": "*",
     "illuminate/contracts": "^11.0|^12.0",
