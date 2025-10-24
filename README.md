@@ -5,7 +5,7 @@
 </a>
 
 <a href="https://www.php.net">
-    <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/badge/php-%3E=8.1-brightgreen.svg?maxAge=2592000" alt="Php Version">
+    <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/badge/php-%3E=8.2-brightgreen.svg?maxAge=2592000" alt="Php Version">
 </a>
 
 <a href="https://laravel.com/">
@@ -29,7 +29,7 @@ You can contact me for help in integrating payment acceptance into your project.
 
 The following versions of PHP are supported by this version.
 
-* PHP 8.1 and older
+* PHP 8.2 and older
 * Laravel 10 or older
 * PHP Extensions: Decimal, GMP, BCMath, CType.
 
@@ -202,7 +202,7 @@ The test suite includes:
 - **15 test files** with 1,130+ lines of test code
 - **110 tests** with 208+ assertions
 - **Status**: ✅ All tests passing
-- Automated CI/CD pipeline for PHP 8.1, 8.2, 8.3 with Laravel 11.x and 12.x
+- Automated CI/CD pipeline for PHP 8.2, 8.3 and 8.4 with Laravel 11.x and 12.x
 
 For detailed testing documentation, see [TESTING.md](TESTING.md) and [tests/README.md](tests/README.md).
 
