@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Casts;
+namespace sakoora0x\LaravelTronModule\Casts;
 
 use Brick\Math\BigDecimal;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;

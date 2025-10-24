@@ -1,16 +1,16 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule;
+namespace sakoora0x\LaravelTronModule;
 
-use Mollsoft\LaravelTronModule\Commands\NewTRC20Command;
-use Mollsoft\LaravelTronModule\Commands\NewWalletCommand;
-use Mollsoft\LaravelTronModule\Commands\NewAddressCommand;
-use Mollsoft\LaravelTronModule\Commands\ImportAddressCommand;
-use Mollsoft\LaravelTronModule\Commands\AddressSyncCommand;
-use Mollsoft\LaravelTronModule\Commands\NewNodeCommand;
-use Mollsoft\LaravelTronModule\Commands\NodeSyncCommand;
-use Mollsoft\LaravelTronModule\Commands\SyncCommand;
-use Mollsoft\LaravelTronModule\Commands\WalletSyncCommand;
+use sakoora0x\LaravelTronModule\Commands\NewTRC20Command;
+use sakoora0x\LaravelTronModule\Commands\NewWalletCommand;
+use sakoora0x\LaravelTronModule\Commands\NewAddressCommand;
+use sakoora0x\LaravelTronModule\Commands\ImportAddressCommand;
+use sakoora0x\LaravelTronModule\Commands\AddressSyncCommand;
+use sakoora0x\LaravelTronModule\Commands\NewNodeCommand;
+use sakoora0x\LaravelTronModule\Commands\NodeSyncCommand;
+use sakoora0x\LaravelTronModule\Commands\SyncCommand;
+use sakoora0x\LaravelTronModule\Commands\WalletSyncCommand;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Commands;
+namespace sakoora0x\LaravelTronModule\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cache;
-use Mollsoft\LaravelTronModule\Services\TronSync;
+use sakoora0x\LaravelTronModule\Services\TronSync;
 
 class SyncCommand extends Command
 {

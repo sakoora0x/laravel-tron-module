@@ -1,10 +1,10 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api;
+namespace sakoora0x\LaravelTronModule\Api;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use Mollsoft\LaravelTronModule\Api\Enums\HttpMethod;
+use sakoora0x\LaravelTronModule\Api\Enums\HttpMethod;
 
 class HttpProvider
 {

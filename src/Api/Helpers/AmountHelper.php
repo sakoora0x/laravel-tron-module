@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Helpers;
+namespace sakoora0x\LaravelTronModule\Api\Helpers;
 
 use Brick\Math\BigDecimal;
 use Brick\Math\RoundingMode;

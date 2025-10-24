@@ -1,9 +1,13 @@
 {
-  "name": "mollsoft/laravel-tron-module",
+  "name": "sakoora0x/laravel-tron-module",
   "description": "Laravel Tron Module",
-  "homepage": "https://github.com/mollsoft/laravel-tron-module",
+  "homepage": "https://github.com/sakoora0x/laravel-tron-module",
   "license": "MIT",
   "authors": [
+    {
+      "name": "sakoora0x",
+      "email": "sakoora0x@gmail.com"
+    },
     {
       "name": "MollSoft",
       "email": "info@mollsoft.com"
@@ -18,27 +22,48 @@
     "php": ">=8.1",
     "ext-gmp": "*",
     "ext-ctype": "*",
-    "illuminate/contracts": "^10.0|^11.0|^12.0",
-    "spatie/laravel-package-tools": "^1.15",
-    "furqansiddiqui/bip39-mnemonic-php": "^0.2.1",
-    "minter/minter-php-bip-44": "^1.2",
-    "web3p/web3.php": "^0.1.6",
+    "illuminate/contracts": "^11.0|^12.0",
+    "spatie/laravel-package-tools": "^1.16",
+    "sakoora0x/bip39-mnemonic-php": "*",
+    "sakoora0x/php-bip-44": "*",
+    "php-core/web3.php": "*",
     "kornrunner/secp256k1": "^0.3",
     "simplito/elliptic-php": "^1.0",
-    "brick/math": ">=0.12"
+    "brick/math": "*"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.0",
+    "pestphp/pest-plugin-laravel": "^3.0",
+    "orchestra/testbench": "^9.0",
+    "mockery/mockery": "^1.6"
   },
   "autoload": {
     "psr-4": {
-      "Mollsoft\\LaravelTronModule\\": "src"
+      "sakoora0x\\LaravelTronModule\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "sakoora0x\\LaravelTronModule\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest",
+    "test-coverage": "vendor/bin/pest --coverage"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Mollsoft\\LaravelTronModule\\TronServiceProvider"
+        "sakoora0x\\LaravelTronModule\\TronServiceProvider"
       ],
       "aliases": {
-        "Tron": "Mollsoft\\LaravelTronModule\\Facades\\Tron"
+        "Tron": "sakoora0x\\LaravelTronModule\\Facades\\Tron"
       }
     }
   },

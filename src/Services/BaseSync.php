@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Services;
+namespace sakoora0x\LaravelTronModule\Services;
 
 use Closure;
 

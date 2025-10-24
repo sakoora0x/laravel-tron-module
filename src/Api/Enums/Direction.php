@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Enums;
+namespace sakoora0x\LaravelTronModule\Api\Enums;
 
 enum Direction: string
 {

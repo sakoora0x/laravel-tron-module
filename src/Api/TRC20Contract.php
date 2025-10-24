@@ -1,10 +1,10 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api;
+namespace sakoora0x\LaravelTronModule\Api;
 
 use Brick\Math\BigDecimal;
-use Mollsoft\LaravelTronModule\Api\Helpers\AddressHelper;
-use Mollsoft\LaravelTronModule\Api\Helpers\AmountHelper;
+use sakoora0x\LaravelTronModule\Api\Helpers\AddressHelper;
+use sakoora0x\LaravelTronModule\Api\Helpers\AmountHelper;
 use phpseclib\Math\BigInteger;
 use Web3\Contracts\Ethabi;
 use Web3\Contracts\Types\Address;

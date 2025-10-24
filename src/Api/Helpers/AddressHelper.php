@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Helpers;
+namespace sakoora0x\LaravelTronModule\Api\Helpers;
 
-use Mollsoft\LaravelTronModule\Api\Support\Base58Check;
+use sakoora0x\LaravelTronModule\Api\Support\Base58Check;
 
 class AddressHelper
 {

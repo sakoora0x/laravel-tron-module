@@ -1,10 +1,10 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Services;
+namespace sakoora0x\LaravelTronModule\Services;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Date;
-use Mollsoft\LaravelTronModule\Models\TronNode;
+use sakoora0x\LaravelTronModule\Models\TronNode;
 
 class NodeSync extends BaseSync
 {

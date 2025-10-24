@@ -22,27 +22,27 @@ return [
      * Sets the handler to be used when Tron Wallet
      * receives a new deposit.
      */
-    'webhook_handler' => \Mollsoft\LaravelTronModule\Handlers\EmptyWebhookHandler::class,
+    'webhook_handler' => \sakoora0x\LaravelTronModule\Handlers\EmptyWebhookHandler::class,
 
     /*
      * Set model class for both TronWallet, TronAddress, TronTrc20,
      * to allow more customization.
      *
-     * TronApi model must be or extend `Mollsoft\LaravelTronModule\Api\Api::class`
-     * TronNode model must be or extend `Mollsoft\LaravelTronModule\Models\TronNode::class`
-     * TronWallet model must be or extend `Mollsoft\LaravelTronModule\Models\TronWallet::class`
-     * TronAddress model must be or extend `Mollsoft\LaravelTronModule\Models\TronAddress::class`
-     * TronTrc20 model must be or extend `Mollsoft\LaravelTronModule\Models\TronTrc20::class`
-     * TronTransaction model must be or extend `Mollsoft\LaravelTronModule\Models\TronTransaction::class`
-     * TronDeposit model must be or extend `Mollsoft\LaravelTronModule\Models\TronDeposit::class`
+     * TronApi model must be or extend `sakoora0x\LaravelTronModule\Api\Api::class`
+     * TronNode model must be or extend `sakoora0x\LaravelTronModule\Models\TronNode::class`
+     * TronWallet model must be or extend `sakoora0x\LaravelTronModule\Models\TronWallet::class`
+     * TronAddress model must be or extend `sakoora0x\LaravelTronModule\Models\TronAddress::class`
+     * TronTrc20 model must be or extend `sakoora0x\LaravelTronModule\Models\TronTrc20::class`
+     * TronTransaction model must be or extend `sakoora0x\LaravelTronModule\Models\TronTransaction::class`
+     * TronDeposit model must be or extend `sakoora0x\LaravelTronModule\Models\TronDeposit::class`
      */
     'models' => [
-        'api' => \Mollsoft\LaravelTronModule\Api\Api::class,
-        'node' => \Mollsoft\LaravelTronModule\Models\TronNode::class,
-        'wallet' => \Mollsoft\LaravelTronModule\Models\TronWallet::class,
-        'address' => \Mollsoft\LaravelTronModule\Models\TronAddress::class,
-        'trc20' => \Mollsoft\LaravelTronModule\Models\TronTRC20::class,
-        'transaction' => \Mollsoft\LaravelTronModule\Models\TronTransaction::class,
-        'deposit' => \Mollsoft\LaravelTronModule\Models\TronDeposit::class,
+        'api' => \sakoora0x\LaravelTronModule\Api\Api::class,
+        'node' => \sakoora0x\LaravelTronModule\Models\TronNode::class,
+        'wallet' => \sakoora0x\LaravelTronModule\Models\TronWallet::class,
+        'address' => \sakoora0x\LaravelTronModule\Models\TronAddress::class,
+        'trc20' => \sakoora0x\LaravelTronModule\Models\TronTRC20::class,
+        'transaction' => \sakoora0x\LaravelTronModule\Models\TronTransaction::class,
+        'deposit' => \sakoora0x\LaravelTronModule\Models\TronDeposit::class,
     ]
 ];

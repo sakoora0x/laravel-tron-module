@@ -1,14 +1,14 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Methods;
+namespace sakoora0x\LaravelTronModule\Api\Methods;
 
 use Brick\Math\BigDecimal;
-use Mollsoft\LaravelTronModule\Api\Api;
-use Mollsoft\LaravelTronModule\Api\DTO\TRC20TransferPreviewDTO;
-use Mollsoft\LaravelTronModule\Api\DTO\TRC20TransferSendDTO;
-use Mollsoft\LaravelTronModule\Api\Helpers\AddressHelper;
-use Mollsoft\LaravelTronModule\Api\Helpers\AmountHelper;
-use Mollsoft\LaravelTronModule\Api\TRC20Contract;
+use sakoora0x\LaravelTronModule\Api\Api;
+use sakoora0x\LaravelTronModule\Api\DTO\TRC20TransferPreviewDTO;
+use sakoora0x\LaravelTronModule\Api\DTO\TRC20TransferSendDTO;
+use sakoora0x\LaravelTronModule\Api\Helpers\AddressHelper;
+use sakoora0x\LaravelTronModule\Api\Helpers\AmountHelper;
+use sakoora0x\LaravelTronModule\Api\TRC20Contract;
 
 class TRC20Transfer
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Models;
+namespace sakoora0x\LaravelTronModule\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Mollsoft\LaravelTronModule\Api\Api;
-use Mollsoft\LaravelTronModule\Api\HttpProvider;
+use sakoora0x\LaravelTronModule\Api\Api;
+use sakoora0x\LaravelTronModule\Api\HttpProvider;
 
 class TronNode extends Model
 {

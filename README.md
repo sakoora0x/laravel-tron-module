@@ -1,7 +1,7 @@
 ![Pest Laravel Expectations](https://banners.beyondco.de/Tron.png?theme=light&packageManager=composer+require&packageName=mollsoft%2Flaravel-tron-module&pattern=architect&style=style_1&description=Working+with+cryptocurrency+Tron%2C+supported+TRC-20+tokens&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
-<a href="https://packagist.org/packages/mollsoft/laravel-tron-module" target="_blank">
-    <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/packagist/v/mollsoft/laravel-tron-module.svg?style=flat&cacheSeconds=3600" alt="Latest Version on Packagist">
+<a href="https://packagist.org/packages/sakoora0x/laravel-tron-module" target="_blank">
+    <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/packagist/v/sakoora0x/laravel-tron-module.svg?style=flat&cacheSeconds=3600" alt="Latest Version on Packagist">
 </a>
 
 <a href="https://www.php.net">
@@ -12,8 +12,8 @@
     <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/badge/laravel-%3E=10-red.svg?maxAge=2592000" alt="Php Version">
 </a>
 
-<a href="https://packagist.org/packages/mollsoft/laravel-tron-module" target="_blank">
-    <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/packagist/dt/mollsoft/laravel-tron-module.svg?style=flat&cacheSeconds=3600" alt="Total Downloads">
+<a href="https://packagist.org/packages/sakoora0x/laravel-tron-module" target="_blank">
+    <img style="display: inline-block; margin-top: 0.5em; margin-bottom: 0.5em" src="https://img.shields.io/packagist/dt/sakoora0x/laravel-tron-module.svg?style=flat&cacheSeconds=3600" alt="Total Downloads">
 </a>
 
 <a href="https://mollsoft.com"><img alt="Website" src="https://img.shields.io/badge/Website-https://mollsoft.com-black"></a>
@@ -37,7 +37,7 @@ The following versions of PHP are supported by this version.
 ## Installation
 You can install the package via composer:
 ```bash
-composer require mollsoft/laravel-tron-module
+composer require sakoora0x/laravel-tron-module
 ```
 
 After you can run installer using command:
@@ -54,12 +54,12 @@ Register Service Provider and Facade in app, edit `config/app.php`:
 ```php
 'providers' => ServiceProvider::defaultProviders()->merge([
     ...,
-    \Mollsoft\LaravelTronModule\TronServiceProvider::class,
+    \sakoora0x\LaravelTronModule\TronServiceProvider::class,
 ])->toArray(),
 
 'aliases' => Facade::defaultAliases()->merge([
     ...,
-    'Tron' => \Mollsoft\LaravelTronModule\Facades\Tron::class,
+    'Tron' => \sakoora0x\LaravelTronModule\Facades\Tron::class,
 ])->toArray(),
 ```
 
@@ -177,4 +177,32 @@ Create TRC-20 Token
 php artisan tron:new-trc20
 ```
 
+## Testing
+
+This package includes a comprehensive test suite built with Pest PHP.
+
+### Running Tests
+
+```bash
+# Run all tests
+composer test
+
+# Run tests with coverage
+composer test-coverage
+
+# Run specific test file
+vendor/bin/pest tests/Unit/Support/KeyTest.php
+```
+
+### Test Coverage
+
+The test suite includes:
+- **Unit Tests**: Support classes, Models, API helpers, Casts, Enums
+- **Feature Tests**: Service provider, Facades, Wallet management workflows
+- **15 test files** with 1,130+ lines of test code
+- **110 tests** with 208+ assertions
+- **Status**: ✅ All tests passing
+- Automated CI/CD pipeline for PHP 8.1, 8.2, 8.3 with Laravel 11.x and 12.x
+
+For detailed testing documentation, see [TESTING.md](TESTING.md) and [tests/README.md](tests/README.md).
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Commands;
+namespace sakoora0x\LaravelTronModule\Commands;
 
 use Illuminate\Console\Command;
-use Mollsoft\LaravelTronModule\Facades\Tron;
-use Mollsoft\LaravelTronModule\Models\TronNode;
-use Mollsoft\LaravelTronModule\Models\TronWallet;
+use sakoora0x\LaravelTronModule\Facades\Tron;
+use sakoora0x\LaravelTronModule\Models\TronNode;
+use sakoora0x\LaravelTronModule\Models\TronWallet;
 
 class NewWalletCommand extends Command
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Methods;
+namespace sakoora0x\LaravelTronModule\Api\Methods;
 
-use Mollsoft\LaravelTronModule\Api\ApiManager;
-use Mollsoft\LaravelTronModule\Api\DTO\TRC20TransferDTO;
-use Mollsoft\LaravelTronModule\Api\Enums\Confirmation;
-use Mollsoft\LaravelTronModule\Api\Enums\OrderBy;
+use sakoora0x\LaravelTronModule\Api\ApiManager;
+use sakoora0x\LaravelTronModule\Api\DTO\TRC20TransferDTO;
+use sakoora0x\LaravelTronModule\Api\Enums\Confirmation;
+use sakoora0x\LaravelTronModule\Api\Enums\OrderBy;
 
 class TRC20Transfers implements \Iterator
 {

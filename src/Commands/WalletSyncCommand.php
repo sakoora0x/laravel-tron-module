@@ -1,15 +1,15 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Commands;
+namespace sakoora0x\LaravelTronModule\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
-use Mollsoft\LaravelTronModule\Enums\TronModel;
-use Mollsoft\LaravelTronModule\Facades\Tron;
-use Mollsoft\LaravelTronModule\Models\TronAddress;
-use Mollsoft\LaravelTronModule\Models\TronWallet;
-use Mollsoft\LaravelTronModule\Services\AddressSync;
-use Mollsoft\LaravelTronModule\Services\WalletSync;
+use sakoora0x\LaravelTronModule\Enums\TronModel;
+use sakoora0x\LaravelTronModule\Facades\Tron;
+use sakoora0x\LaravelTronModule\Models\TronAddress;
+use sakoora0x\LaravelTronModule\Models\TronWallet;
+use sakoora0x\LaravelTronModule\Services\AddressSync;
+use sakoora0x\LaravelTronModule\Services\WalletSync;
 
 class WalletSyncCommand extends Command
 {

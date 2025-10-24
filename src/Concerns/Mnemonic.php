@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Concerns;
+namespace sakoora0x\LaravelTronModule\Concerns;
 
 use FurqanSiddiqui\BIP39\BIP39;
 use FurqanSiddiqui\BIP39\Language\English;

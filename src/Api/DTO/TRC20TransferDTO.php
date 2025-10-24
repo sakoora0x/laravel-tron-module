@@ -1,12 +1,12 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\DTO;
+namespace sakoora0x\LaravelTronModule\Api\DTO;
 
 use Brick\Math\BigDecimal;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Date;
-use Mollsoft\LaravelTronModule\Api\Helpers\AddressHelper;
-use Mollsoft\LaravelTronModule\Api\Helpers\AmountHelper;
+use sakoora0x\LaravelTronModule\Api\Helpers\AddressHelper;
+use sakoora0x\LaravelTronModule\Api\Helpers\AmountHelper;
 
 class TRC20TransferDTO
 {

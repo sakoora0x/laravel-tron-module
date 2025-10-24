@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api;
+namespace sakoora0x\LaravelTronModule\Api;
 
-use Mollsoft\LaravelTronModule\Api\Enums\HttpMethod;
+use sakoora0x\LaravelTronModule\Api\Enums\HttpMethod;
 
 class ApiManager
 {

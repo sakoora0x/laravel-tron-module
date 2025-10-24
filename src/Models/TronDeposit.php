@@ -1,10 +1,10 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Models;
+namespace sakoora0x\LaravelTronModule\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Mollsoft\LaravelTronModule\Casts\BigDecimalCast;
+use sakoora0x\LaravelTronModule\Casts\BigDecimalCast;
 
 class TronDeposit extends Model
 {

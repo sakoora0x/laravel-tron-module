@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Support;
+namespace sakoora0x\LaravelTronModule\Api\Support;
 
 class Base58
 {

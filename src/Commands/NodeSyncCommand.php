@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Commands;
+namespace sakoora0x\LaravelTronModule\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\App;
-use Mollsoft\LaravelTronModule\Models\TronNode;
-use Mollsoft\LaravelTronModule\Services\NodeSync;
+use sakoora0x\LaravelTronModule\Models\TronNode;
+use sakoora0x\LaravelTronModule\Services\NodeSync;
 
 class NodeSyncCommand extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Support;
+namespace sakoora0x\LaravelTronModule\Support;
 
 use InvalidArgumentException;
 use kornrunner\Keccak;

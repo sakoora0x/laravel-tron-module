@@ -1,13 +1,13 @@
 <?php
 
-namespace Mollsoft\LaravelTronModule\Api\Methods;
+namespace sakoora0x\LaravelTronModule\Api\Methods;
 
 use Brick\Math\BigDecimal;
-use Mollsoft\LaravelTronModule\Api\Api;
-use Mollsoft\LaravelTronModule\Api\DTO\TransferPreviewDTO;
-use Mollsoft\LaravelTronModule\Api\DTO\TransferSendDTO;
-use Mollsoft\LaravelTronModule\Api\Helpers\AddressHelper;
-use Mollsoft\LaravelTronModule\Api\Helpers\AmountHelper;
+use sakoora0x\LaravelTronModule\Api\Api;
+use sakoora0x\LaravelTronModule\Api\DTO\TransferPreviewDTO;
+use sakoora0x\LaravelTronModule\Api\DTO\TransferSendDTO;
+use sakoora0x\LaravelTronModule\Api\Helpers\AddressHelper;
+use sakoora0x\LaravelTronModule\Api\Helpers\AmountHelper;
 
 class Transfer
 {
