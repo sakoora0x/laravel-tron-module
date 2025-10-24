@@ -80,7 +80,7 @@ class Api
         return AccountResourcesDTO::fromArray($address, $data);
     }
 
-    public function validateAddress(string $address, string &$error = null): bool
+    public function validateAddress(string $address, ?string &$error = null): bool
     {
         $data = $this->manager->request('wallet/validateaddress', null, [
             'address' => $address,

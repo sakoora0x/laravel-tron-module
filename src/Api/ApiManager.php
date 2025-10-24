@@ -99,7 +99,7 @@ class ApiManager
         return $array;
     }
 
-    public function request(string $path, array $get = null, array $post = null): array
+    public function request(string $path, ?array $get = null, ?array $post = null): array
     {
         $provider = $this->fullNode();
 
